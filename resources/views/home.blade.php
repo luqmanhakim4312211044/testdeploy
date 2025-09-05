@@ -10,14 +10,13 @@
         <source src="{{ asset('videos/background.mp4') }}">
     </video>
     <div style="position: fixed; top: 0; left: 0; width: 100%; background: white; padding-top:20px; padding-bottom:20px; display: flex; justify-content: space-between; align-items: center;">
-        <div style="margin-left: 40px;">
-            <a href="/"><img src="{{ asset('images/logo.png') }}" style="height: clamp(15px, 2vw, 25px);"></a>
+        <div style="margin-left: 30px;">
+            <a href="/"><img src="{{ asset('images/logo.png') }}" style="height: clamp(10px, 2vw, 25px);"></a>
         </div>
-        <div style="margin-right: 40px; display: flex; flex-wrap: wrap;"> 
-            <a href="/" style="color: darkgoldenrod; margin-left: 40px; font-size:18px; text-decoration: none;">Home</a>
-            <a href="/about" style="color: black; margin-left: 40px; font-size:18px; text-decoration: none;" onmouseover="this.style.color='darkgoldenrod';" onmouseout="this.style.color='black';">About</a>
-            <a href="/contact" style="color: black; margin-left: 40px; font-size:18px; text-decoration: none;" onmouseover="this.style.color='darkgoldenrod';" onmouseout="this.style.color='black';">Contact</a>
-            <a href="/portofolio" style="color: black; margin-left: 40px; font-size:18px; text-decoration: none;" onmouseover="this.style.color='darkgoldenrod';" onmouseout="this.style.color='black';">Portofolio</a>
+        <div style="margin-right: 30px; display: flex; flex-wrap: wrap;"> 
+            <a href="/" style="color: darkgoldenrod; margin-left: 30px; font-size:18px; text-decoration: none;">Home</a>
+            <a href="/about" style="color: black; margin-left: 30px; font-size:18px; text-decoration: none;" onmouseover="this.style.color='darkgoldenrod';" onmouseout="this.style.color='black';">About</a>
+            <a href="/contact" style="color: black; margin-left: 30px; font-size:18px; text-decoration: none;" onmouseover="this.style.color='darkgoldenrod';" onmouseout="this.style.color='black';">Contact</a>
         </div>
     </div>
     <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
