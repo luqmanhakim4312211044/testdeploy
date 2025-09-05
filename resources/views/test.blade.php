@@ -7,7 +7,7 @@
 </head>
 <body>
     <video autoplay muted loop style="position:absolute; z-index: -1; width: 100%; height: 100%; left:0; top:0; object-fit: cover;">
-        <source src="/videos/background.mp4">
+        <source src="{{ asset('videos/background.mp4') }}">
     </video>
     <div style="position: fixed; top: 0; left: 0; width: 100%; background: white; padding-top:20px; padding-bottom:20px; display: flex; justify-content: space-between; align-items: center;">
         <div style="margin-left: 40px;">
