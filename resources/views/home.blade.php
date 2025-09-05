@@ -11,7 +11,7 @@
     </video>
     <div style="position: fixed; top: 0; left: 0; width: 100%; background: white; padding-top:20px; padding-bottom:20px; display: flex; justify-content: space-between; align-items: center;">
         <div style="margin-left: 40px;">
-            <a href="/"><img src="{{ asset('images/logo.png') }}" style="height: 30px;"></a>
+            <a href="/"><img src="{{ asset('images/logo.png') }}" style="height: clamp(15px, 2vw, 25px);"></a>
         </div>
         <div style="margin-right: 40px; display: flex; flex-wrap: wrap;"> 
             <a href="/" style="color: darkgoldenrod; margin-left: 40px; font-size:18px; text-decoration: none;">Home</a>
